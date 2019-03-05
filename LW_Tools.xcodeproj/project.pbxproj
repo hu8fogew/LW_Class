@@ -84,7 +84,7 @@
 		0DB4BF06222E4B3200DA19DF = {
 			isa = PBXGroup;
 			children = (
-				0DB4BF44222E4E1300DA19DF /* WeakTimer */,
+				0DB4BF44222E4E1300DA19DF /* LW_WeakTimer */,
 				0DB4BF11222E4B3200DA19DF /* LW_Tools */,
 				0DB4BF2A222E4B3B00DA19DF /* LW_ToolsTests */,
 				0DB4BF35222E4B3B00DA19DF /* LW_ToolsUITests */,
@@ -136,13 +136,13 @@
 			path = LW_ToolsUITests;
 			sourceTree = "<group>";
 		};
-		0DB4BF44222E4E1300DA19DF /* WeakTimer */ = {
+		0DB4BF44222E4E1300DA19DF /* LW_WeakTimer */ = {
 			isa = PBXGroup;
 			children = (
 				0DB4BF46222E4E2600DA19DF /* NSTimer+WeakTarget.h */,
 				0DB4BF45222E4E2600DA19DF /* NSTimer+WeakTarget.m */,
 			);
-			path = WeakTimer;
+			path = LW_WeakTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
