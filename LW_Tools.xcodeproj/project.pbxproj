@@ -15,6 +15,7 @@
 		0DB4BF22222E4B3A00DA19DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB4BF21222E4B3A00DA19DF /* main.m */; };
 		0DB4BF2C222E4B3B00DA19DF /* LW_ToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB4BF2B222E4B3B00DA19DF /* LW_ToolsTests.m */; };
 		0DB4BF37222E4B3B00DA19DF /* LW_ToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB4BF36222E4B3B00DA19DF /* LW_ToolsUITests.m */; };
+		0DB4BF47222E4E2600DA19DF /* NSTimer+WeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB4BF45222E4E2600DA19DF /* NSTimer+WeakTarget.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0DB4BF32222E4B3B00DA19DF /* LW_ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LW_ToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB4BF36222E4B3B00DA19DF /* LW_ToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LW_ToolsUITests.m; sourceTree = "<group>"; };
 		0DB4BF38222E4B3B00DA19DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB4BF45222E4E2600DA19DF /* NSTimer+WeakTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+WeakTarget.m"; sourceTree = "<group>"; };
+		0DB4BF46222E4E2600DA19DF /* NSTimer+WeakTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WeakTarget.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		0DB4BF06222E4B3200DA19DF = {
 			isa = PBXGroup;
 			children = (
+				0DB4BF44222E4E1300DA19DF /* WeakTimer */,
 				0DB4BF11222E4B3200DA19DF /* LW_Tools */,
 				0DB4BF2A222E4B3B00DA19DF /* LW_ToolsTests */,
 				0DB4BF35222E4B3B00DA19DF /* LW_ToolsUITests */,
@@ -130,6 +134,15 @@
 				0DB4BF38222E4B3B00DA19DF /* Info.plist */,
 			);
 			path = LW_ToolsUITests;
+			sourceTree = "<group>";
+		};
+		0DB4BF44222E4E1300DA19DF /* WeakTimer */ = {
+			isa = PBXGroup;
+			children = (
+				0DB4BF46222E4E2600DA19DF /* NSTimer+WeakTarget.h */,
+				0DB4BF45222E4E2600DA19DF /* NSTimer+WeakTarget.m */,
+			);
+			path = WeakTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 				0DB4BF17222E4B3200DA19DF /* ViewController.m in Sources */,
 				0DB4BF22222E4B3A00DA19DF /* main.m in Sources */,
 				0DB4BF14222E4B3200DA19DF /* AppDelegate.m in Sources */,
+				0DB4BF47222E4E2600DA19DF /* NSTimer+WeakTarget.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
