@@ -7,7 +7,7 @@ s.license      = 'MIT'
 s.authors      = {'LW' => '854778053@qq.com'}
 s.platform     = :ios, '9.0'
 s.source       = {:git => 'https://github.com/hu8fogew/LW_Class.git', :tag => s.version}
-s.source_files = 'WeakTimer/**/*.{h,m}'
+s.source_files = 'WeakTimer/*.{h,m}'
 s.requires_arc = true
 end
 
