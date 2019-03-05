@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'WeakTimer'
-s.version      = '0.0.1'
+s.version      = '0.0.2'
 s.summary      = '利用runtime消息转发机制和NSProxy封装timer，避免内存泄漏。'
 s.homepage     = 'https://github.com/hu8fogew/LW_Class'
 s.license      = 'MIT'
