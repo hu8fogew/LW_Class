@@ -1,2 +1,2 @@
 # LW_Class
-weakTimer
+利用NSProxy实现weakTarget，利用完整消息转发机制。
